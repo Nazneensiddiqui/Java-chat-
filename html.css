@@ -1,0 +1,16 @@
+.head{
+height: 500px;
+width: 500px;
+background-color: aqua;
+position: relative;
+left: 400px;
+}
+
+.head form {
+    position: relative;
+    
+    
+}
+h2{
+    padding-top: 150px;
+}
