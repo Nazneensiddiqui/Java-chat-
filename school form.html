@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application form</title>
+    <link rel="stylesheet" href="school form.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1>Job Application Form</h1>
+        <hr>
+        <p>Thank you for your interest in working with us. Please check below for <br>
+            available job opportunities that meet your criteria and send your application<br>
+            by filling out the Job Application Form.</p>
+        <form action="html.html" onsubmit="return fun()">
+            <div class="name">
+                <label for="">Name</label><br><br>
+                <input type="text" placeholder="First " id="name">
+                <input type="text" placeholder="Last " id="last">
+            </div>
+            <br><br>
+            <div class="email">
+                <label for="">Email</label> <br><br>
+                <input type="text" placeholder="john.dos@exmaple.com" id="email"><br><br>
+            </div>
+            <div class="select">
+                <div>
+                    <label for="">What position are you applying for ?</label><br><br>
+                    <select id="evey">
+                        <option value="">-select-</option>
+                        <option value="">PHP backend devloper</option>
+                        <option value="">senior PHP team lead</option>
+                        <option value="">CTO</option>
+                        <option value="">CEO</option>
+                        <option value="">IT manager</option>
+                        <option value="">Coach</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Available Date</label><br><br>
+                    <input type="date" id="date">
+                </div>
+            </div>
+            <br><br>
+            <label for="">What is your current employee status?</label><br> <br>
+            <div class="radeo">
+                <input type="radio" name="ali" id="emp1">Employer
+                <input type="radio" name="ali" id="emp2">Self-Employer
+            </div><br><br>
+            <div class="redo">
+                <input type="radio" name="ali" id="emp3">Unemployer
+                <input type="radio" name="ali" id="emp4">Student
+            </div><br><br>
+            <div class="name">
+                <label for="">Do you have reference?(optional)</label><br><br>
+                <input type="text" placeholder="First " id="option1">
+                <input type="text" placeholder="Last " id="option2">
+            </div><br><br>
+            <div class="email">
+                <label for=""> Reference Email</label> <br><br>
+                <input type="text" placeholder="john.dos@exmaple.com" id="reference"><br><br>
+            </div>
+            <div class="but">
+                <button>Reset</button>
+                <input type="submit">
+            </div>
+        </form>
+
+
+
+
+
+    </div>
+    <script src="school form.js"></script>
+
+</body>
+
+</html>

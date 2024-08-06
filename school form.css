@@ -1,0 +1,48 @@
+*{ 
+color: rgb(105, 100, 100);
+}
+
+.form{
+    width: 500px;
+    margin-left: 400px;
+    border: 2px solid;
+    padding: 40px;
+    background-color: rgb(200, 250, 250);
+}
+
+.name input{
+    height: 30px;
+    width: 225px;
+    gap: 20px;
+}
+
+.email input{
+    height: 30px;
+    width: 450px;
+ 
+}
+
+.select{
+    display: flex;
+gap: 30px;
+
+}
+.select select{
+    height: 35px;
+    width: 225px;
+}
+
+.select input{
+    height: 30px;
+    width: 225px;
+}
+.radeo{
+    display: flex;
+    gap: 80px;
+}
+
+.redo{
+    display: flex;
+    gap: 70px;
+}
+

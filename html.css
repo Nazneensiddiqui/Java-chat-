@@ -1,9 +1,21 @@
+body{
+    background-image: url(images\ \(2\).jpeg);
+      background-repeat:no-repeat;
+    background-size: cover; 
+    height:500px;}
+
+
 .head{
 height: 500px;
 width: 500px;
-background-color: aqua;
+background-image: url(images\ \(2\).jpeg);
+background-repeat:no-repeat;
+background-size: cover; 
 position: relative;
 left: 400px;
+box-shadow: 3px 3px 3px 3px;
+flex-wrap: wrap;
+color: yellow;
 }
 
 .head form {
@@ -14,3 +26,5 @@ left: 400px;
 h2{
     padding-top: 150px;
 }
+
+
