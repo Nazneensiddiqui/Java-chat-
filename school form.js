@@ -4,9 +4,10 @@ let lastname = document.getElementById("last").value
 let email = document.getElementById("email").value
 let  date = document.getElementById("date").value
 let referen = document.getElementById("reference").value
-let fristk = document.getElementById("option1").value
-let last = document.getElementById("option2").value
+let option1 = document.getElementById("option1").value
+let option2 = document.getElementById("option2").value
 let underr = document.getElementById("evey").value
+
 
 //.................namee....................
 if(namee ==""){
@@ -29,6 +30,11 @@ if(email ==""){
     document.getElementById("email").focus()
     return false;
 }
+// else if(!(email.include("@"))){
+//     alert("please special charecter @ use this field")
+//     document.getElementById("email").focus()
+//     return false;
+// }
 
 //......................date...............
 
@@ -48,29 +54,22 @@ if(referen ==""){
 
 //......................optional...............
 
-if(fristk ==""){
-    alert("pleace fill the field")
+if(option1==""){
+    alert("pleace fill the optional field")
     document.getElementById("option1").focus()
     return false;
 }
 
-if(last ==""){
+if(option2==""){
     alert("pleace fill the field")
     document.getElementById("option2").focus()
     return false;
 }
 //............select...................
-if(underr ==""){
-    alert("pleace fill the field")
-    document.getElementById("option2").focus()
-    return false;
-}
+// if(underr==""){
+//     alert("pleace select")
+//     document.getElementById("evey").focus()
+//     return false;
+// }
 
-}
-
-function validateForm(username, email) {
-    if (username.trim() === '' || email.trim() === '') {
-        return false;
-    }
-    return true;
 }
